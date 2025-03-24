@@ -1,0 +1,17 @@
+{
+    "name": "demo-framework/app",
+    "description": "App to learning php",
+    "type": "project",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "v3.73.1"
+    },
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}

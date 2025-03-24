@@ -1,0 +1,6 @@
+vendor
+.idea
+*.cache
+*.iml
+*.lock
+.env
